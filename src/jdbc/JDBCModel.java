@@ -62,7 +62,7 @@ public class JDBCModel {
          if (this.isConnected()) {
              this.close();
          }
-         Class.forName("com.mysql.cj.jdbc.Driver");
+        //  Class.forName("com.mysql.cj.jdbc.Driver");
 
          connection = DriverManager.getConnection(url,this.user,this.pass);
      }catch (Exception ex){

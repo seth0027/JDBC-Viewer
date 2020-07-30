@@ -3,13 +3,14 @@ package jdbcviewer;
 import java.sql.SQLException;
 import java.util.List;
 
+
 import javafx.application.Application;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.geometry.Insets;
 import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
-import javafx.scene.control.MenuBar;
+
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableColumn.CellDataFeatures;
 import javafx.scene.control.TableView;
@@ -24,8 +25,7 @@ import javafx.scene.layout.Region;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import jdbc.JDBCController;
-import jdbc.builder.JDBCURLBuilder;
-import jdbc.builder.MySQLURLBuilder;
+
 import jdbc.builder.URLBuilderFactory;
 
 import static common.CommonGUIBuilder.createTextField;
