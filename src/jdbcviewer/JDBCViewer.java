@@ -86,6 +86,7 @@ public class JDBCViewer extends Application {
 
 		//TODO initialize the controller and set the builder to it.
 		controller=new JDBCController();
+		controller.setURLBuilder(URLBuilderFactory.getURLBuilder("mysql"));
 
 		//TODO initialize the dialog.
 				dialog=new ConnectDialog(controller);
